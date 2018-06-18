@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5355A63DB83975DDF372AB82 /* Pods_TERUMIN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6186B7FF79DD8C5B5817763 /* Pods_TERUMIN.framework */; };
+		F27776FA20D4FC570097147D /* PeerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27776F920D4FC570097147D /* PeerKit.framework */; };
+		F27776FC20D4FD560097147D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27776FB20D4FD560097147D /* Foundation.framework */; };
+		F27776FE20D5014B0097147D /* TuningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27776FD20D5014B0097147D /* TuningViewController.swift */; };
+		F277770020D508190097147D /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27776FF20D508190097147D /* SessionViewController.swift */; };
+		F277770220D512100097147D /* EndingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F277770120D512100097147D /* EndingViewController.swift */; };
+		FC000FEC20D5EB6300F9D2C4 /* OnePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC000FEB20D5EB6300F9D2C4 /* OnePlayerViewController.swift */; };
+		FC00101020D60F5400F9D2C4 /* button002.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100320D60E5700F9D2C4 /* button002.png */; };
+		FC00101120D60F5400F9D2C4 /* terumon-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100420D60E6F00F9D2C4 /* terumon-icon.png */; };
+		FC00101220D60F5400F9D2C4 /* button001.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100520D60E8400F9D2C4 /* button001.png */; };
+		FC00101320D60F5400F9D2C4 /* button01.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100620D60E9700F9D2C4 /* button01.png */; };
+		FC00101420D60F5400F9D2C4 /* 002.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC00100720D60EB200F9D2C4 /* 002.mp4 */; };
+		FC00101520D60F5400F9D2C4 /* 003.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC00100820D60EB200F9D2C4 /* 003.mp4 */; };
+		FC00101620D60F5400F9D2C4 /* button006.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100920D60EB300F9D2C4 /* button006.png */; };
+		FC00101720D60F5400F9D2C4 /* button004.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100A20D60EDD00F9D2C4 /* button004.png */; };
+		FC00101820D60F5400F9D2C4 /* 001.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC00100B20D60EF400F9D2C4 /* 001.mp4 */; };
+		FC00101920D60F5400F9D2C4 /* button003.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100C20D60EF500F9D2C4 /* button003.png */; };
+		FC00101A20D60F5400F9D2C4 /* terumon-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100D20D60F0800F9D2C4 /* terumon-icon2.png */; };
+		FC00101B20D60F5400F9D2C4 /* button02.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100E20D60F1D00F9D2C4 /* button02.png */; };
+		FC00101C20D60F5400F9D2C4 /* button005.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00100F20D60F4000F9D2C4 /* button005.png */; };
+		FC00101F20D6118A00F9D2C4 /* button007.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00101D20D6116500F9D2C4 /* button007.png */; };
+		FC00102020D6118A00F9D2C4 /* button008.png in Resources */ = {isa = PBXBuildFile; fileRef = FC00101E20D6117900F9D2C4 /* button008.png */; };
+		FC00102220D611F100F9D2C4 /* MatomeruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC00102120D611F100F9D2C4 /* MatomeruViewController.swift */; };
+		FC560B3F20D4D43900331679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC560B3E20D4D43900331679 /* AppDelegate.swift */; };
+		FC560B4120D4D43900331679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC560B4020D4D43900331679 /* ViewController.swift */; };
+		FC560B4420D4D43900331679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC560B4220D4D43900331679 /* Main.storyboard */; };
+		FC560B4620D4D43B00331679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC560B4520D4D43B00331679 /* Assets.xcassets */; };
+		FC560B4920D4D43B00331679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC560B4720D4D43B00331679 /* LaunchScreen.storyboard */; };
+		FC560B5320D5648D00331679 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC560B5220D5648C00331679 /* ConnectionManager.swift */; };
+		FC560B5C20D57AF900331679 /* terumon02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC560B5520D57AF800331679 /* terumon02.jpg */; };
+		FC560B5E20D57AF900331679 /* terumon00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC560B5720D57AF900331679 /* terumon00.jpg */; };
+		FC560B5F20D57AF900331679 /* button3.png in Resources */ = {isa = PBXBuildFile; fileRef = FC560B5820D57AF900331679 /* button3.png */; };
+		FC560B6020D57AF900331679 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC560B5920D57AF900331679 /* button2.png */; };
+		FC560B6120D57AF900331679 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC560B5A20D57AF900331679 /* button1.png */; };
+		FC560B6220D57AF900331679 /* button5.png in Resources */ = {isa = PBXBuildFile; fileRef = FC560B5B20D57AF900331679 /* button5.png */; };
+		FC560B6420D582F700331679 /* button4.png in Resources */ = {isa = PBXBuildFile; fileRef = FC560B6320D582F700331679 /* button4.png */; };
+		FC560B6620D5868000331679 /* terumon01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC560B6520D5868000331679 /* terumon01.jpg */; };
+		FC77C83D20D59B47007095F7 /* AssetWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC77C83C20D59B47007095F7 /* AssetWriter.swift */; };
+		FC77C84020D5B3B2007095F7 /* terumon04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC77C83E20D5B3B1007095F7 /* terumon04.jpg */; };
+		FC77C84120D5B3B2007095F7 /* terumon03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC77C83F20D5B3B1007095F7 /* terumon03.jpg */; };
+		FCD5149220D58E6600AD8A7B /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD5149020D58E6600AD8A7B /* AudioKit.framework */; };
+		FCD5149320D58E6600AD8A7B /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD5149120D58E6600AD8A7B /* AudioKitUI.framework */; };
+		FCD5149520D58F3E00AD8A7B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD5149420D58F3E00AD8A7B /* CoreMotion.framework */; };
+		FCD5149720D58F4A00AD8A7B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD5149620D58F4A00AD8A7B /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D52288274770FE9FE6D51C1 /* Pods-TERUMIN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TERUMIN.release.xcconfig"; path = "Pods/Target Support Files/Pods-TERUMIN/Pods-TERUMIN.release.xcconfig"; sourceTree = "<group>"; };
+		B6186B7FF79DD8C5B5817763 /* Pods_TERUMIN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TERUMIN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8161CB7A93BD00AD87D0889 /* Pods-TERUMIN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TERUMIN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TERUMIN/Pods-TERUMIN.debug.xcconfig"; sourceTree = "<group>"; };
+		F27776F920D4FC570097147D /* PeerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PeerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27776FB20D4FD560097147D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F27776FD20D5014B0097147D /* TuningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuningViewController.swift; sourceTree = "<group>"; };
+		F27776FF20D508190097147D /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		F277770120D512100097147D /* EndingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingViewController.swift; sourceTree = "<group>"; };
+		FC000FEB20D5EB6300F9D2C4 /* OnePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerViewController.swift; sourceTree = "<group>"; };
+		FC00100320D60E5700F9D2C4 /* button002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button002.png; path = images/button002.png; sourceTree = "<group>"; };
+		FC00100420D60E6F00F9D2C4 /* terumon-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "terumon-icon.png"; path = "images/terumon-icon.png"; sourceTree = "<group>"; };
+		FC00100520D60E8400F9D2C4 /* button001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button001.png; path = images/button001.png; sourceTree = "<group>"; };
+		FC00100620D60E9700F9D2C4 /* button01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button01.png; path = images/button01.png; sourceTree = "<group>"; };
+		FC00100720D60EB200F9D2C4 /* 002.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 002.mp4; path = images/002.mp4; sourceTree = "<group>"; };
+		FC00100820D60EB200F9D2C4 /* 003.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 003.mp4; path = images/003.mp4; sourceTree = "<group>"; };
+		FC00100920D60EB300F9D2C4 /* button006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button006.png; path = images/button006.png; sourceTree = "<group>"; };
+		FC00100A20D60EDD00F9D2C4 /* button004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button004.png; path = images/button004.png; sourceTree = "<group>"; };
+		FC00100B20D60EF400F9D2C4 /* 001.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 001.mp4; path = images/001.mp4; sourceTree = "<group>"; };
+		FC00100C20D60EF500F9D2C4 /* button003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button003.png; path = images/button003.png; sourceTree = "<group>"; };
+		FC00100D20D60F0800F9D2C4 /* terumon-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "terumon-icon2.png"; path = "images/terumon-icon2.png"; sourceTree = "<group>"; };
+		FC00100E20D60F1D00F9D2C4 /* button02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button02.png; path = images/button02.png; sourceTree = "<group>"; };
+		FC00100F20D60F4000F9D2C4 /* button005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button005.png; path = images/button005.png; sourceTree = "<group>"; };
+		FC00101D20D6116500F9D2C4 /* button007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button007.png; path = images/button007.png; sourceTree = "<group>"; };
+		FC00101E20D6117900F9D2C4 /* button008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button008.png; path = images/button008.png; sourceTree = "<group>"; };
+		FC00102120D611F100F9D2C4 /* MatomeruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatomeruViewController.swift; sourceTree = "<group>"; };
+		FC560B3B20D4D43900331679 /* TERUMIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TERUMIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC560B3E20D4D43900331679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC560B4020D4D43900331679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC560B4320D4D43900331679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC560B4520D4D43B00331679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC560B4820D4D43B00331679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC560B4A20D4D43B00331679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC560B5220D5648C00331679 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		FC560B5520D57AF800331679 /* terumon02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terumon02.jpg; sourceTree = "<group>"; };
+		FC560B5720D57AF900331679 /* terumon00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terumon00.jpg; sourceTree = "<group>"; };
+		FC560B5820D57AF900331679 /* button3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button3.png; sourceTree = "<group>"; };
+		FC560B5920D57AF900331679 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		FC560B5A20D57AF900331679 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		FC560B5B20D57AF900331679 /* button5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button5.png; sourceTree = "<group>"; };
+		FC560B6320D582F700331679 /* button4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button4.png; sourceTree = "<group>"; };
+		FC560B6520D5868000331679 /* terumon01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terumon01.jpg; sourceTree = "<group>"; };
+		FC77C83C20D59B47007095F7 /* AssetWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetWriter.swift; sourceTree = "<group>"; };
+		FC77C83E20D5B3B1007095F7 /* terumon04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terumon04.jpg; sourceTree = "<group>"; };
+		FC77C83F20D5B3B1007095F7 /* terumon03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = terumon03.jpg; sourceTree = "<group>"; };
+		FCD5149020D58E6600AD8A7B /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = Pods/AudioKit/iOS/AudioKit.framework; sourceTree = "<group>"; };
+		FCD5149120D58E6600AD8A7B /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKitUI.framework; path = Pods/AudioKit/iOS/AudioKitUI.framework; sourceTree = "<group>"; };
+		FCD5149420D58F3E00AD8A7B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FCD5149620D58F4A00AD8A7B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC560B3820D4D43900331679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD5149720D58F4A00AD8A7B /* CoreLocation.framework in Frameworks */,
+				FCD5149520D58F3E00AD8A7B /* CoreMotion.framework in Frameworks */,
+				FCD5149220D58E6600AD8A7B /* AudioKit.framework in Frameworks */,
+				FCD5149320D58E6600AD8A7B /* AudioKitUI.framework in Frameworks */,
+				F27776FC20D4FD560097147D /* Foundation.framework in Frameworks */,
+				F27776FA20D4FC570097147D /* PeerKit.framework in Frameworks */,
+				5355A63DB83975DDF372AB82 /* Pods_TERUMIN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2708B3F38B30B0FB9B876E14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8161CB7A93BD00AD87D0889 /* Pods-TERUMIN.debug.xcconfig */,
+				2D52288274770FE9FE6D51C1 /* Pods-TERUMIN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		928167DB40AC04ECF2092439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5149620D58F4A00AD8A7B /* CoreLocation.framework */,
+				FCD5149420D58F3E00AD8A7B /* CoreMotion.framework */,
+				FCD5149020D58E6600AD8A7B /* AudioKit.framework */,
+				FCD5149120D58E6600AD8A7B /* AudioKitUI.framework */,
+				F27776FB20D4FD560097147D /* Foundation.framework */,
+				F27776F920D4FC570097147D /* PeerKit.framework */,
+				B6186B7FF79DD8C5B5817763 /* Pods_TERUMIN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC560B3220D4D43900331679 = {
+			isa = PBXGroup;
+			children = (
+				FC00102120D611F100F9D2C4 /* MatomeruViewController.swift */,
+				FC560B3D20D4D43900331679 /* TERUMIN */,
+				FC560B3C20D4D43900331679 /* Products */,
+				2708B3F38B30B0FB9B876E14 /* Pods */,
+				928167DB40AC04ECF2092439 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC560B3C20D4D43900331679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC560B3B20D4D43900331679 /* TERUMIN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC560B3D20D4D43900331679 /* TERUMIN */ = {
+			isa = PBXGroup;
+			children = (
+				FC00101D20D6116500F9D2C4 /* button007.png */,
+				FC00101E20D6117900F9D2C4 /* button008.png */,
+				FC00100B20D60EF400F9D2C4 /* 001.mp4 */,
+				FC00100720D60EB200F9D2C4 /* 002.mp4 */,
+				FC00100820D60EB200F9D2C4 /* 003.mp4 */,
+				FC00100620D60E9700F9D2C4 /* button01.png */,
+				FC00100520D60E8400F9D2C4 /* button001.png */,
+				FC00100E20D60F1D00F9D2C4 /* button02.png */,
+				FC00100320D60E5700F9D2C4 /* button002.png */,
+				FC00100C20D60EF500F9D2C4 /* button003.png */,
+				FC00100A20D60EDD00F9D2C4 /* button004.png */,
+				FC00100F20D60F4000F9D2C4 /* button005.png */,
+				FC00100920D60EB300F9D2C4 /* button006.png */,
+				FC00100420D60E6F00F9D2C4 /* terumon-icon.png */,
+				FC00100D20D60F0800F9D2C4 /* terumon-icon2.png */,
+				FC77C83C20D59B47007095F7 /* AssetWriter.swift */,
+				FC560B5420D57AF800331679 /* images */,
+				FC560B5220D5648C00331679 /* ConnectionManager.swift */,
+				FC560B3E20D4D43900331679 /* AppDelegate.swift */,
+				FC560B4020D4D43900331679 /* ViewController.swift */,
+				FC560B4220D4D43900331679 /* Main.storyboard */,
+				FC560B4520D4D43B00331679 /* Assets.xcassets */,
+				FC560B4720D4D43B00331679 /* LaunchScreen.storyboard */,
+				FC560B4A20D4D43B00331679 /* Info.plist */,
+				F27776FD20D5014B0097147D /* TuningViewController.swift */,
+				F27776FF20D508190097147D /* SessionViewController.swift */,
+				F277770120D512100097147D /* EndingViewController.swift */,
+				FC000FEB20D5EB6300F9D2C4 /* OnePlayerViewController.swift */,
+			);
+			path = TERUMIN;
+			sourceTree = "<group>";
+		};
+		FC560B5420D57AF800331679 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FC77C83F20D5B3B1007095F7 /* terumon03.jpg */,
+				FC77C83E20D5B3B1007095F7 /* terumon04.jpg */,
+				FC560B6520D5868000331679 /* terumon01.jpg */,
+				FC560B6320D582F700331679 /* button4.png */,
+				FC560B5520D57AF800331679 /* terumon02.jpg */,
+				FC560B5720D57AF900331679 /* terumon00.jpg */,
+				FC560B5820D57AF900331679 /* button3.png */,
+				FC560B5920D57AF900331679 /* button2.png */,
+				FC560B5A20D57AF900331679 /* button1.png */,
+				FC560B5B20D57AF900331679 /* button5.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC560B3A20D4D43900331679 /* TERUMIN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC560B4D20D4D43B00331679 /* Build configuration list for PBXNativeTarget "TERUMIN" */;
+			buildPhases = (
+				D64E94B5787D0B3B71D1EBF5 /* [CP] Check Pods Manifest.lock */,
+				FC560B3720D4D43900331679 /* Sources */,
+				FC560B3820D4D43900331679 /* Frameworks */,
+				FC560B3920D4D43900331679 /* Resources */,
+				64E69D36FF6A6B4D8C6D4450 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TERUMIN;
+			productName = TERUMIN;
+			productReference = FC560B3B20D4D43900331679 /* TERUMIN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC560B3320D4D43900331679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = IkukoHiraga;
+				TargetAttributes = {
+					FC560B3A20D4D43900331679 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = FC560B3620D4D43900331679 /* Build configuration list for PBXProject "TERUMIN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC560B3220D4D43900331679;
+			productRefGroup = FC560B3C20D4D43900331679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC560B3A20D4D43900331679 /* TERUMIN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC560B3920D4D43900331679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC560B5C20D57AF900331679 /* terumon02.jpg in Resources */,
+				FC560B4920D4D43B00331679 /* LaunchScreen.storyboard in Resources */,
+				FC77C84020D5B3B2007095F7 /* terumon04.jpg in Resources */,
+				FC77C84120D5B3B2007095F7 /* terumon03.jpg in Resources */,
+				FC560B5F20D57AF900331679 /* button3.png in Resources */,
+				FC00101120D60F5400F9D2C4 /* terumon-icon.png in Resources */,
+				FC00101420D60F5400F9D2C4 /* 002.mp4 in Resources */,
+				FC560B6620D5868000331679 /* terumon01.jpg in Resources */,
+				FC00101520D60F5400F9D2C4 /* 003.mp4 in Resources */,
+				FC560B5E20D57AF900331679 /* terumon00.jpg in Resources */,
+				FC00101F20D6118A00F9D2C4 /* button007.png in Resources */,
+				FC560B6020D57AF900331679 /* button2.png in Resources */,
+				FC00101020D60F5400F9D2C4 /* button002.png in Resources */,
+				FC560B6120D57AF900331679 /* button1.png in Resources */,
+				FC00101720D60F5400F9D2C4 /* button004.png in Resources */,
+				FC560B4620D4D43B00331679 /* Assets.xcassets in Resources */,
+				FC00102020D6118A00F9D2C4 /* button008.png in Resources */,
+				FC00101B20D60F5400F9D2C4 /* button02.png in Resources */,
+				FC00101620D60F5400F9D2C4 /* button006.png in Resources */,
+				FC560B6420D582F700331679 /* button4.png in Resources */,
+				FC00101220D60F5400F9D2C4 /* button001.png in Resources */,
+				FC00101320D60F5400F9D2C4 /* button01.png in Resources */,
+				FC00101920D60F5400F9D2C4 /* button003.png in Resources */,
+				FC00101C20D60F5400F9D2C4 /* button005.png in Resources */,
+				FC00101820D60F5400F9D2C4 /* 001.mp4 in Resources */,
+				FC560B4420D4D43900331679 /* Main.storyboard in Resources */,
+				FC00101A20D60F5400F9D2C4 /* terumon-icon2.png in Resources */,
+				FC560B6220D57AF900331679 /* button5.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64E69D36FF6A6B4D8C6D4450 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TERUMIN/Pods-TERUMIN-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PeerKit/PeerKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PeerKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TERUMIN/Pods-TERUMIN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64E94B5787D0B3B71D1EBF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TERUMIN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC560B3720D4D43900331679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC560B4120D4D43900331679 /* ViewController.swift in Sources */,
+				FC77C83D20D59B47007095F7 /* AssetWriter.swift in Sources */,
+				F277770220D512100097147D /* EndingViewController.swift in Sources */,
+				F27776FE20D5014B0097147D /* TuningViewController.swift in Sources */,
+				FC560B5320D5648D00331679 /* ConnectionManager.swift in Sources */,
+				FC00102220D611F100F9D2C4 /* MatomeruViewController.swift in Sources */,
+				F277770020D508190097147D /* SessionViewController.swift in Sources */,
+				FC000FEC20D5EB6300F9D2C4 /* OnePlayerViewController.swift in Sources */,
+				FC560B3F20D4D43900331679 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC560B4220D4D43900331679 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC560B4320D4D43900331679 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC560B4720D4D43B00331679 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC560B4820D4D43B00331679 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC560B4B20D4D43B00331679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC560B4C20D4D43B00331679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC560B4E20D4D43B00331679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8161CB7A93BD00AD87D0889 /* Pods-TERUMIN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AudioKit/iOS",
+				);
+				INFOPLIST_FILE = TERUMIN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.custardpudding.TERUMIN1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FC560B4F20D4D43B00331679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D52288274770FE9FE6D51C1 /* Pods-TERUMIN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AudioKit/iOS",
+				);
+				INFOPLIST_FILE = TERUMIN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.custardpudding.TERUMIN1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC560B3620D4D43900331679 /* Build configuration list for PBXProject "TERUMIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC560B4B20D4D43B00331679 /* Debug */,
+				FC560B4C20D4D43B00331679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC560B4D20D4D43B00331679 /* Build configuration list for PBXNativeTarget "TERUMIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC560B4E20D4D43B00331679 /* Debug */,
+				FC560B4F20D4D43B00331679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC560B3320D4D43900331679 /* Project object */;
+}
